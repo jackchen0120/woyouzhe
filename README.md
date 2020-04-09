@@ -1,20 +1,54 @@
 # 介绍
-本项目是利用业余时间开发，纯属练手，加深对各技术知识点的实操积累经验。基于 vue3 + axios 构建多页面开发的H5移动端电商网站，采用前后端分离，API接口调用使用mockjs模拟数据和第三方API接口（针对前端人员可以不涉及后端接口开发），H5界面分为：首页、分类搜索页、模糊搜索页，详情页、领券页、分享页。由于涉及微信页面，建议使用微信web开发者工具进行页面开发。
+本项目是利用业余时间开发，纯属练手，加深对各技术知识点的实操积累经验。基于 vue3 + axios 构建多页面开发的H5移动端电商网站，采用前后端分离，API接口调用使用mockjs模拟数据和第三方API接口（针对前端人员可以不涉及后端接口开发），由于涉及微信页面，建议使用微信web开发者工具进行页面开发。
 
 ## 项目架构
 
 
-## 效果截图
+## 部分截图
+首页
+![首页](https://github.com/jackchen0120/woyouzhe/blob/master/static/img/wyz_1.jpg)
 
+分类搜索页
+![分类搜索页](https://github.com/jackchen0120/woyouzhe/blob/master/static/img/wyz_2.jpg)
+
+二维码公众号
+![二维码公众号](https://github.com/jackchen0120/woyouzhe/blob/master/static/img/wyz_3.jpg)
+
+详情页
+![详情页](https://github.com/jackchen0120/woyouzhe/blob/master/static/img/wyz_4.jpg)
+
+查看优惠券
+![查看优惠券](https://github.com/jackchen0120/woyouzhe/blob/master/static/img/wyz_5.jpg)
+
+复制优惠券链接
+![复制优惠券链接](https://github.com/jackchen0120/woyouzhe/blob/master/static/img/wyz_6.jpg)
+
+淘宝领券
+![淘宝领券](https://github.com/jackchen0120/woyouzhe/blob/master/static/img/wyz_7.jpg)
+
+微信分享提示
+![微信分享提示](https://github.com/jackchen0120/woyouzhe/blob/master/static/img/share.jpg)
 
 ## 技术栈
-vue3.x
-axios
-webpack
-ES6/7
-flex布局
-rem单位适配移动端
-mockjs
+ * vue3.x
+ * axios
+ * webpack
+ * ES6/7
+ * flex布局
+ * rem单位适配移动端
+ * mockjs
+ 
+## 功能模块
+* 首页
+* 轮播图
+* 返回顶部
+* 类目、模糊搜索
+* 二维码公众号
+* 详情页展示
+* 猜你喜欢
+* 查看、领取优惠券
+* 复制优惠券链接
+* 朋友圈分享提示
 
 ## Project setup
 ```

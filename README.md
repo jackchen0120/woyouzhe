@@ -1,5 +1,11 @@
-# 介绍
-本项目是利用业余时间开发完成简洁版，纯属练手，加深对各技术知识点的实操积累经验。基于 vue3 + axios 构建多页面开发的H5移动端电商网站，采用前后端分离，API接口调用使用mockjs模拟数据和第三方API接口（针对前端人员可以不涉及后端接口开发），由于涉及微信页面，建议使用微信web开发者工具进行页面开发。
+# 简单介绍
+本项目是利用业余时间开发完成的简单版，加深一下对各技术知识点的实操积累经验。基于 vue3 + axios 构建多页面应用的H5移动端电商网站，采用前后端分离技术，项目中用到的API接口是通过引入mockjs模拟数据和第三方API接口，让前端开发人员独立于后端进行开发。由于涉及微信页面，建议使用微信web开发者工具进行页面开发。
+
+前端人员也可以开发API接口，推荐几个模拟数据的工具：
+* mockjs [http://mockjs.com/](http://mockjs.com/)
+* yapi [http://yapi.demo.qunar.com/](http://yapi.demo.qunar.com/)
+* easy-mock [https://easy-mock.com/docs](https://easy-mock.com/docs)
+
 
 # 项目架构
 ```

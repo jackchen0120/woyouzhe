@@ -5,29 +5,38 @@
 
 
 ## 部分截图
-首页
-![首页](https://github.com/jackchen0120/woyouzhe/blob/master/static/img/wyz_1.jpg)
 
-分类搜索页
-![分类搜索页](https://github.com/jackchen0120/woyouzhe/blob/master/static/img/wyz_2.jpg)
+__首页__
 
-二维码公众号
-![二维码公众号](https://github.com/jackchen0120/woyouzhe/blob/master/static/img/wyz_3.jpg)
+<img src="https://github.com/jackchen0120/woyouzhe/blob/master/static/img/wyz_1.jpg" width="375" alt="首页" />
 
-详情页
-![详情页](https://github.com/jackchen0120/woyouzhe/blob/master/static/img/wyz_4.jpg)
+__分类搜索页__
 
-查看优惠券
-![查看优惠券](https://github.com/jackchen0120/woyouzhe/blob/master/static/img/wyz_5.jpg)
+<img src="https://github.com/jackchen0120/woyouzhe/blob/master/static/img/wyz_2.jpg" width="375" alt="分类搜索页" />
 
-复制优惠券链接
-![复制优惠券链接](https://github.com/jackchen0120/woyouzhe/blob/master/static/img/wyz_6.jpg)
+__二维码公众号__
 
-淘宝领券
-![淘宝领券](https://github.com/jackchen0120/woyouzhe/blob/master/static/img/wyz_7.jpg)
+<img src="https://github.com/jackchen0120/woyouzhe/blob/master/static/img/wyz_3.jpg" width="375" alt="分类二维码公众号" />
 
-微信分享提示
-![微信分享提示](https://github.com/jackchen0120/woyouzhe/blob/master/static/img/share.jpg)
+__详情页__
+
+<img src="https://github.com/jackchen0120/woyouzhe/blob/master/static/img/wyz_4.jpg" width="375" alt="详情页" />
+
+__查看优惠券__
+
+<img src="https://github.com/jackchen0120/woyouzhe/blob/master/static/img/wyz_5.jpg" width="375" alt="查看优惠券" />
+
+__复制优惠券链接__
+
+<img src="https://github.com/jackchen0120/woyouzhe/blob/master/static/img/wyz_6.jpg" width="375" alt="复制优惠券链接" />
+
+__淘宝领券__
+
+<img src="https://github.com/jackchen0120/woyouzhe/blob/master/static/img/wyz_7.jpg" width="375" alt="淘宝领券" />
+
+__微信分享提示__
+
+<img src="https://github.com/jackchen0120/woyouzhe/blob/master/static/img/share.jpg" width="375" alt="微信分享提示" />
 
 ## 技术栈
  * vue3.x

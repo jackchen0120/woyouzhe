@@ -1,0 +1,148 @@
+@charset "utf-8";
+
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);/*去掉点击链接和文本框对象的半透明覆盖（iOS）或者虚框（Android）*/
+    /*避免点击a标签或者注册了click事件的元素时产生高亮*/
+    /*-webkit-touch-callout:none;!*禁用长按页面时弹出菜单（iOS下有效）*!*/
+    /*-webkit-user-select:none;/*!*禁止页面文字选择*!*/
+    -webkit-overflow-scrolling: touch;/*局部滚动（仅iOS 5以上支持）*/
+    -webkit-apperance: none;/*&!*消除原生外观，在iOS上加上这个属性才能给按钮和输入框自定义样式*!*/
+}
+html, body{
+    width: 100%;
+    /*max-width: 750px;*/
+    margin:0 auto;
+    -webkit-user-select: none;
+    user-select: none;
+}
+html{
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: #fff;
+    font-family: "微软雅黑", "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+    -webkit-overflow-scrolling:touch;
+}
+ul,ol,dd,dl,li,dt,p,h1,h2,h3,h4,h5,h6{
+    list-style:none;
+    margin: 0;
+    padding: 0
+}
+a{  
+    color: #333;
+    text-decoration: none;
+}
+img{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+input, img {
+    vertical-align: middle;
+}
+input, button{
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+em, i{
+    font-style: normal;
+}
+.left{
+    float: left
+}
+.right{
+    float: right
+}
+.fix:after{
+    content: '';
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+.clear {
+    zoom: 1;
+    clear: both;
+}
+.of {
+    overflow: hidden;
+    word-wrap: break-word;
+    word-break: break-all;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.wb {
+    word-wrap: break-word;
+    word-break: break-all;
+    text-overflow: ellipsis;
+}
+
+.overtouch {
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+body.modal-open {
+    position: fixed;
+    width: 100%;
+}
+
+.flex-cont{
+    /*定义为flexbox的"父元素"*/
+    display: -webkit-box; 
+    display: -webkit-flex;
+    display: flex;
+}
+
+.flex-item{
+    /*给"子元素"赋予自由伸缩的能力*/
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+}
+
+/*导航*/
+.flex-nav{
+    height: .88rem;
+    /*定义子元素垂直居中*/
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    /*子元素沿主轴对齐方式均分*/
+   /* -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;*/
+}
+.flex-nav .nav-middle {
+    text-align: center;
+    line-height: 1.2;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+}
+.top-hr {
+    margin-top: .88rem;
+    visibility: hidden;
+}
+.top-menu{
+    position: fixed;
+    width: 100%;
+    /*max-width: 750px;*/
+    top: 0;
+    z-index: 99;
+    background: #fc0786;
+}
+[v-cloak] {
+  display: none;
+}

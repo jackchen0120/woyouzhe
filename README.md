@@ -79,7 +79,7 @@
  * webpack
  * ES6/7
  * flex布局
- * rem单位适配移动端
+ * rem适配移动端
  * mockjs
  
 # 功能模块

@@ -65,8 +65,8 @@
  * axios
  * webpack
  * ES6/7
- * flex布局
- * rem适配移动端
+ * flex
+ * rem
  * mockjs
  
 # 功能模块
@@ -91,9 +91,8 @@ npm install 或 yarn
 ## 开发模式
 ```
 npm run serve
-
 ```
-运行之后访问地址：http://localhost:8090
+运行之后，访问地址：http://localhost:8090
 
 ## 生产环境打包
 ```

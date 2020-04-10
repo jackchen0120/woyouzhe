@@ -11,19 +11,15 @@
 ```
 │  vue.config.js                     // webpack配置
 │  vue.util.js                       // 打包多页面配置
-│  
 ├─public
 │      favicon.ico                   // 图标
 │      index.html                    // 入口html文件
 │      share.png                     // 微信分享提示
-│      
 ├─src
 │  ├─assets
 │  │  ├─css
 │  │  │      common.css              // 公共样式文件 
-│  │  │      
 │  │  ├─img                          // 存放公共图片文件夹
-│  │  │          
 │  │  └─js
 │  │          api.js                 // 封装所有API接口调用方法
 │  │          common.js              // 常用JS方法
@@ -31,7 +27,6 @@
 │  │          fastclick.js           // 移动端点击延迟事件处理
 │  │          network.js             // axios封装与拦截器配置
 │  │          url.js                 // 打包环境配置
-│  │          
 │  ├─components
 │  │      backTop.vue                 // 返回顶部组件
 │  │      categoryList.vue            // 商品分类组件
@@ -41,34 +36,26 @@
 │  │      qrcodePop.vue               // 生成二维码弹框
 │  │      shopList.vue                // 商品列表组件
 │  │      soldOut.vue                 // 请求数据错误展示占位图
-│  │      
 │  ├─mock
-│  │      index.js                    引入mockjs模拟数据
-│  │      
+│  │      index.js                    // 引入mockjs模拟数据
 │  └─pages
 │      ├─coupon
 │      │      coupon.html             // 领券页面结构
 │      │      coupon.js               // 领券页面入口文件，加载各种公用组件
 │      │      coupon.vue              // 领券页
-│      │      
 │      ├─detail
 │      │      detail.html             // 商品详情结构
 │      │      detail.js               // 商品详情入口文件，加载各种公用组件
 │      │      detail.vue              // 商品详情页
-│      │      
 │      ├─index
 │      │      index.html              // 首页结构
 │      │      index.js                // 首页入口文件，加载各种公用组件
 │      │      index.vue               // 首页
-│      │      
 │      └─search
 │              search.html            // 商品分类/关键词搜索页面结构
 │              search.js              // 商品搜索入口文件，加载各种公用组件
 │              search.vue             // 商品搜索页
-│              
-└─static                               // 存放静态资源文件夹
-    │  
-    │  
+└─static                              // 存放静态资源文件夹
     └─img                              // 静态图片文件夹
 ```
 
@@ -104,7 +91,9 @@ npm install 或 yarn
 ## 开发模式
 ```
 npm run serve
+
 ```
+运行之后访问地址：http://localhost:8090
 
 ## 生产环境打包
 ```

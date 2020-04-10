@@ -18,15 +18,15 @@
 ├─src
 │  ├─assets
 │  │  ├─css
-│  │  │      common.css              // 公共样式文件 
-│  │  ├─img                          // 存放公共图片文件夹
+│  │  │      common.css               // 公共样式文件 
+│  │  ├─img                           // 存放公共图片文件夹
 │  │  └─js
-│  │          api.js                 // 封装所有API接口调用方法
-│  │          common.js              // 常用JS方法
-│  │          export.js              // 外部调用入口
-│  │          fastclick.js           // 移动端点击延迟事件处理
-│  │          network.js             // axios封装与拦截器配置
-│  │          url.js                 // 打包环境配置
+│  │          api.js                  // 封装所有API接口调用方法
+│  │          common.js               // 常用JS方法
+│  │          export.js               // 外部调用入口
+│  │          fastclick.js            // 移动端点击延迟事件处理
+│  │          network.js              // axios封装与拦截器配置
+│  │          url.js                  // 打包环境配置
 │  ├─components
 │  │      backTop.vue                 // 返回顶部组件
 │  │      categoryList.vue            // 商品分类组件
@@ -56,7 +56,7 @@
 │              search.js              // 商品搜索入口文件，加载各种公用组件
 │              search.vue             // 商品搜索页
 └─static                              // 存放静态资源文件夹
-    └─img                              // 静态图片文件夹
+    └─img                             // 静态图片文件夹
 ```
 
 

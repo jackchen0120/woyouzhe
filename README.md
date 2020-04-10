@@ -119,11 +119,11 @@ npm run build
 
 ## 查看优惠券
 
-<img src="https://github.com/jackchen0120/woyouzhe/blob/master/static/img/wyz_5.png" width="375" alt="查看优惠券" />
+<img src="https://github.com/jackchen0120/woyouzhe/blob/master/static/img/wyz_5.jpg" width="375" alt="查看优惠券" />
 
 ## 复制优惠券链接
 
-<img src="https://github.com/jackchen0120/woyouzhe/blob/master/static/img/wyz_6.png" width="375" alt="复制优惠券链接" />
+<img src="https://github.com/jackchen0120/woyouzhe/blob/master/static/img/wyz_6.jpg" width="375" alt="复制优惠券链接" />
 
 ## 淘宝领券
 
@@ -131,4 +131,4 @@ npm run build
 
 ## 微信分享提示
 
-<img src="https://github.com/jackchen0120/woyouzhe/blob/master/static/img/share.png" width="375" alt="微信分享提示" />
+<img src="https://github.com/jackchen0120/woyouzhe/blob/master/static/img/share.jpg" width="375" alt="微信分享提示" />

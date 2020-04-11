@@ -1,6 +1,6 @@
 import network from './network'
-import Mock from '@/mock'
 import { baseUrl } from './url'
+// import Mock from '@/mock'
 
 
 // 普通产品API接口

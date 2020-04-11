@@ -23,10 +23,10 @@
 │  │  └─js
 │  │          api.js                  // 封装所有API接口调用方法
 │  │          common.js               // 常用JS方法
-│  │          export.js               // 外部调用入口
+│  │          export.js               // 外部调用统一出口
 │  │          fastclick.js            // 移动端点击延迟事件处理
 │  │          network.js              // axios封装与拦截器配置
-│  │          url.js                  // 打包环境配置
+│  │          url.js                  // 自动部署服务器环境
 │  ├─components
 │  │      backTop.vue                 // 返回顶部组件
 │  │      categoryList.vue            // 商品分类组件

@@ -29,7 +29,7 @@ export function getShopDetail(id) {
   })
 }
 
-// mock/index.js模拟数据
+// mockjs 模拟数据
 // 商品列表
 // export function getShopList(params) {
 //   return network({

@@ -26,9 +26,6 @@
         </div> 
       </div>
       <div class="top-hr"></div>
-      <!-- <div class="banner" @click="adBanner">
-        <img src="../../../static/img/banner.jpg" alt="时尚MJ淘宝店" title="时尚MJ淘宝店">
-      </div> -->
       <div class="swiper-container">
           <div class="swiper-wrapper">
               <div class="swiper-slide" v-for="(banner, index) in banners" :key="index">
@@ -37,14 +34,6 @@
           </div>
           <div class="swiper-pagination"></div> 
       </div>
-      <!-- <swiper :options="swiperOption"  ref="mySwiper">   -->
-          <!-- 这部分放你要渲染的那些内容 -->  
-          <!-- <swiper-slide v-for="banner in banners" :key="banner"> 
-              <img :src="banner" class="index-img" @click="adBanner" alt="时尚MJ淘宝店">
-          </swiper-slide>   -->
-          <!-- 这是轮播的小圆点 -->  
-         <!--  <div class="swiper-pagination" slot="pagination"></div> -->  
-      </swiper> 
 
       <category-list></category-list>
 

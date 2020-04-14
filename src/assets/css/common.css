@@ -1,45 +1,53 @@
 @charset "utf-8";
 
-*{
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);/*去掉点击链接和文本框对象的半透明覆盖（iOS）或者虚框（Android）*/
-    /*避免点击a标签或者注册了click事件的元素时产生高亮*/
-    /*-webkit-touch-callout:none;!*禁用长按页面时弹出菜单（iOS下有效）*!*/
-    /*-webkit-user-select:none;/*!*禁止页面文字选择*!*/
-    -webkit-overflow-scrolling: touch;/*局部滚动（仅iOS 5以上支持）*/
-    -webkit-apperance: none;/*&!*消除原生外观，在iOS上加上这个属性才能给按钮和输入框自定义样式*!*/
+
+/*消除原生外观，在iOS上加上这个属性才能给按钮和输入框自定义样式*/
+input, textarea {
+  -webkit-appearance: none;
 }
-html, body{
+
+/*在iOS下禁止长按页面时弹出菜单*/
+a, img {
+  -webkit-touch-callout: none;
+}
+
+/*去掉点击链接和文本框对象的半透明覆盖（iOS）或者虚框（Android）*/
+a, button, input, optgroup, select, textarea {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+html, body {
     width: 100%;
     /*max-width: 750px;*/
     margin:0 auto;
-    -webkit-user-select: none;
+    -webkit-user-select: none; /*禁止页面文字选择*/
     user-select: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
-html{
+html {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
 }
-body{
+body {
     margin: 0;
     padding: 0;
     color: #333;
     background: #fff;
     font-family: "微软雅黑", "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
-    -webkit-overflow-scrolling:touch;
+    -webkit-overflow-scrolling: touch; /*局部滚动（仅iOS 5以上支持）*/
 }
-ul,ol,dd,dl,li,dt,p,h1,h2,h3,h4,h5,h6{
+ul,ol,dd,dl,li,dt,p,h1,h2,h3,h4,h5,h6 {
     list-style:none;
     margin: 0;
     padding: 0
 }
-a{  
+a {  
     color: #333;
     text-decoration: none;
 }
-img{
+img {
     width: 100%;
     height: 100%;
     border: none;
@@ -47,7 +55,7 @@ img{
 input, img {
     vertical-align: middle;
 }
-input, button{
+input, button {
     border: none;
     outline: none;
     -webkit-appearance: none;
@@ -55,16 +63,16 @@ input, button{
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
-em, i{
+em, i {
     font-style: normal;
 }
-.left{
+.left {
     float: left
 }
-.right{
+.right {
     float: right
 }
-.fix:after{
+.fix:after {
     content: '';
     display: block;
     clear: both;
@@ -98,14 +106,14 @@ body.modal-open {
     width: 100%;
 }
 
-.flex-cont{
+.flex-cont {
     /*定义为flexbox的"父元素"*/
     display: -webkit-box; 
     display: -webkit-flex;
     display: flex;
 }
 
-.flex-item{
+.flex-item {
     /*给"子元素"赋予自由伸缩的能力*/
     -webkit-box-flex: 1;
     -webkit-flex: 1;
@@ -113,7 +121,7 @@ body.modal-open {
 }
 
 /*导航*/
-.flex-nav{
+.flex-nav {
     height: .88rem;
     /*定义子元素垂直居中*/
     -webkit-box-align: center;
@@ -135,7 +143,7 @@ body.modal-open {
     margin-top: .88rem;
     visibility: hidden;
 }
-.top-menu{
+.top-menu {
     position: fixed;
     width: 100%;
     /*max-width: 750px;*/

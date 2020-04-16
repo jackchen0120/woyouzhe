@@ -9,7 +9,6 @@
 </template>
 
 <script>
-import Export from '@/assets/js/export'
 
 export default {
 	data () {
@@ -22,20 +21,14 @@ export default {
 	},
 	watch: {
 		isNotice: function(){
-			//this.isShow();
+			
 		}
 	},
 	methods: {
-		/*isShow () {
-			if (this.isNotice) {
-				Export.modalHelper.afterOpen();
-			} else {
-				Export.modalHelper.beforeClose();
-			}
-		}*/
+
 	},
 	mounted () {
-		//this.isShow();
+		
 	}
 }
 </script>

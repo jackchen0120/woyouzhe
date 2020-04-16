@@ -9,7 +9,6 @@
 </template>
 
 <script>
-import Export from '@/assets/js/export'
 
 export default{
 	data () {
@@ -21,9 +20,6 @@ export default{
 	/*props: {
 		isBackTop: Boolean
 	},*/
-	watch: {
-
-	},
 	methods: {
 		backTop () {
 			this.isBackTop = false;

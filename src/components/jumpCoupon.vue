@@ -7,7 +7,6 @@
 </template>
 
 <script>
-import Export from '@/assets/js/export'
 
 export default{
 	data () {
@@ -18,26 +17,13 @@ export default{
 	props: {
 		isJumpCoupon: Boolean
 	},
-	watch: {
-		isJumpCoupon: function () {
-			//this.isShow();
-		}
-	},
 	methods: {
-		/*isShow () {
-			if (this.isJumpCoupon) {
-				Export.modalHelper.afterOpen();
-			} else {
-				Export.modalHelper.beforeClose();
-			}
-		},*/
 		closeCouponBtn () {
 			this.$emit('showPopperCoupon');
-			//Export.modalHelper.beforeClose();
 		}
 	},
 	mounted () {
-		//this.isShow();
+		
 	}
 }
 </script>

@@ -1,4 +1,5 @@
 <template>
+  <!-- 商品列表组件 -->
   <div class="shop">
     <div class="shop-list" ref="shopListBox" v-show="isShow">
       <div class="goods" id="goods">
@@ -10,7 +11,7 @@
           <li v-for="(item, index) in myData" :key="index">        
             <a class="goods-a" :title="item.GoodsName" href="javascript:;" @click="gotoDetail(item.GoodsId)" target="_blank">
               <div class="goods-main">          
-                <img class="lazy" :src="item.ImgUrl" onerror="../assets/img/lazy_default.png">
+                <img class="lazy" :src="item.ImgUrl ? item.ImgUrl : require('@/assets/img/lazy_default.png')" :onerror="errorImg">
                 <span class="icon new">新品</span>
               </div>
               <div class="goods-desc">
@@ -71,6 +72,7 @@ export default {
       isShow: false,
       isOut: false,
       outText: '',
+      errorImg: "this.src='" + require('@/assets/img/lazy_default.png') + "'",
 
       //上拉加载更多
       pageNum: 20, //每页显示数量

@@ -1,5 +1,5 @@
-<!-- 弹框提示 -->
 <template>
+	<!-- 二维码弹框提示 -->
 	<div id="qrcodePop" class="qrcodePop" v-show="isPopup">
 		<div class="qrcode-box">
 			<slot></slot>
@@ -9,7 +9,6 @@
 </template>
 
 <script>
-import Export from '@/assets/js/export'
 
 export default {
 	data () {
@@ -20,26 +19,13 @@ export default {
 	props: {
 		isPopup: Boolean
 	},
-	watch: {
-		isPopup: function () {
-			//this.isShow();
-		}
-	},
 	methods: {
-		/*isShow () {
-			if (this.isPopup){
-				Export.modalHelper.afterOpen();
-			} else {
-				Export.modalHelper.beforeClose();
-			}
-		},*/
 		closeBtn () {
 			this.$emit('showPopper');
-			//Export.modalHelper.beforeClose();
 		}
 	},
 	mounted () {
-		//this.isShow();
+		
 	}
 }
 </script>

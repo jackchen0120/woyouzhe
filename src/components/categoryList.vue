@@ -1,4 +1,5 @@
 <template>
+  <!-- 商品分类 -->
   <div class="category-list">
       <div class="floor-area">
           <ul class="category fix">
@@ -14,7 +15,6 @@
 </template>
 
 <script>
-import Export from '@/assets/js/export'
 
 export default {
   data () {
@@ -85,7 +85,7 @@ export default {
     }
   },
   created () {
-    Export.rem();
+    
   },
   mounted () {
     

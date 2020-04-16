@@ -19,7 +19,7 @@
 	    <div class="content" v-show="isShow">
 	        <div class="item-good">
 	            <div class="img-show">
-	                <img :src="detailInfo.ImgUrl" :alt="detailInfo.GoodsName" onerror="../assets/img/lazy_default.png">
+	                <img :src="detailInfo.ImgUrl ? detailInfo.ImgUrl : require('@/assets/img/lazy_default.png')" :alt="detailInfo.GoodsName" :onerror="errorImg">
 	            </div>
 	            <div class="normal-list">
 	                <h2>{{detailInfo.GoodsName}}</h2>
@@ -39,7 +39,7 @@
 	              <li v-for="item in detailList">        
 	                <a class="goods-a" :title="item.GoodsName" href="javascript:;" target="_blank" @click="gotoDetail(item.GoodsId)">
 	                  <div class="goods-main">          
-	                    <img class="lazy" :src="item.ImgUrl" onerror="../assets/img/lazy_default.png">
+	                    <img class="lazy" :src="item.ImgUrl ? item.ImgUrl : require('@/assets/img/lazy_default.png')" :onerror="errorImg">
 	                    <span class="icon new">热销</span>
 	                  </div>
 	                  <div class="goods-desc">
@@ -139,7 +139,8 @@ export default {
       noticeText: '',
       isPopup: false,
       isJumpCoupon: false,
-      ua: window.navigator.userAgent.toLowerCase()
+      ua: window.navigator.userAgent.toLowerCase(),
+      errorImg: "this.src='" + require('@/assets/img/lazy_default.png') + "'"
     }
   },
   watch: {

@@ -26,7 +26,7 @@
 	        </div>
 	      <div class="app-detail">
 	        <div class="appicon">
-	          <img :src="detailInfo.ImgUrl" :alt="detailInfo.GoodsName" onerror="../assets/img/lazy_default.png">
+	          <img :src="detailInfo.ImgUrl ? detailInfo.ImgUrl : require('@/assets/img/lazy_default.png')" :alt="detailInfo.GoodsName" :onerror="errorImg">
 	        </div>
           <div class="kouling-cont">
               <textarea id="textarea" readonly disabled>{{detailInfo.ActLink}}</textarea>
@@ -95,7 +95,8 @@ export default {
       noticeText: '',
       isCouponUrl: false,
       outText: '',
-      isJumpCoupon: false
+      isJumpCoupon: false,
+      errorImg: "this.src='" + require('@/assets/img/lazy_default.png') + "'"
     }
   },
   watch: {

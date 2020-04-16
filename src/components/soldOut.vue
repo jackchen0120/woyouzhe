@@ -1,5 +1,5 @@
-<!-- 请求数据错误展示占位图 -->
 <template>
+	<!-- 请求数据错误展示占位图 -->
 	<div id="soldoutImg" v-show="isOut">
 		<div class="soldoutImgContent">
 			<div><img src="../assets/img/nodata_img.png" alt=""></div>

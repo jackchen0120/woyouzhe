@@ -154,3 +154,17 @@ body.modal-open {
 [v-cloak] {
   display: none;
 }
+
+/*img.lazy:after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background: url('../img/lazy_default.png') no-repeat;
+    background-size: 100%;
+    background-color: #fff;
+}*/

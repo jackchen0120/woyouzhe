@@ -1,4 +1,5 @@
 <template>
+	<!-- loading预加载动画 -->
 	<div id="loading" v-show="isLoading">
 		<div class="loading-box">
 			<div class="load-container load">

@@ -74,6 +74,7 @@ import shopList from '@/components/shopList'
 import errNotice from '@/components/errNotice'
 import jumpCoupon from '@/components/jumpCoupon'
 import backTop from '@/components/backTop'
+import { getMockData } from '@/assets/js/api'
 
 export default {
   components: {
@@ -157,18 +158,25 @@ export default {
           }, 
           loop: true
        })
+    },
+    getMockList() {
+      // 调用mock数据API
+      getMockData().then(res => {
+        console.log('mockData===', res)
+      }).catch(err => {
+        console.log(err)
+      })
     }
   },  
-  computed: {  
-      swiper() {  // 定义这个sweiper对象
-        return this.$refs.mySwiper.swiper;  
-      }  
+  computed: {
+
   },
   created () {
     Export.rem();
   },
   mounted () {
     this.initSwiper();
+    // this.getMockList(); // 初始化调用mock数据
   }
 }
 </script>

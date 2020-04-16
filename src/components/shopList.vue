@@ -58,6 +58,7 @@ import Export from '@/assets/js/export'
 import { getShopList } from '@/assets/js/api'
 import loading from './loading'
 import soldOut from './soldOut'
+import '@/mock'
 
 export default {
   components: {
@@ -250,7 +251,7 @@ export default {
     this.getListData();
   },
   mounted () {
-
+    
   }
 }
 

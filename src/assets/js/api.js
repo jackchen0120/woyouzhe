@@ -29,15 +29,13 @@ export function getShopDetail(id) {
   })
 }
 
-// mockjs 模拟数据
-// 商品列表
-// export function getShopList(params) {
-//   return network({
-//     url: '/shoplist',
-//     method: 'get',
-//     params
-//   });
-// }
+// mockjs 模拟商品列表接口
+export function getMockData() {
+  return network({
+    url: '/shoplist',
+    method: 'get'
+  });
+}
 
 // 商品分类
 // export function getCategoryList() {

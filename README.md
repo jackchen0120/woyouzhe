@@ -129,6 +129,6 @@ npm run build
 
 <img src="https://mmbiz.qpic.cn/mmbiz_jpg/GxbBAxrsEibpgl27SgtVON18TWns19NmreGhOA9391xj5E1sHUyKaBjnAe4RwClN3VpcPdUhkbrcML0YI21tZEA/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" width="375" alt="淘宝领券" />
 
-## 淘宝领券
+## 微信分享提示
 
-<img src="https://mmbiz.qpic.cn/mmbiz_jpg/GxbBAxrsEibpgl27SgtVON18TWns19NmreGhOA9391xj5E1sHUyKaBjnAe4RwClN3VpcPdUhkbrcML0YI21tZEA/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" width="375" alt="淘宝领券" />
+<img src="https://github.com/jackchen0120/woyouzhe/blob/master/static/img/share.jpg" width="375" alt="微信分享提示" />

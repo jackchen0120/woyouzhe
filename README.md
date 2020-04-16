@@ -107,7 +107,7 @@ npm run build
 
 ## 分类搜索页
 
-<img src="https://mmbiz.qpic.cn/mmbiz_jpg/GxbBAxrsEibpgl27SgtVON18TWns19NmrO6iapiaCxZyx2H51uicice6iczu0YCibqUI4VWxooDURMrXgXkzInIzhXibwQ/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" />
+<img src="https://mmbiz.qpic.cn/mmbiz_jpg/GxbBAxrsEibpgl27SgtVON18TWns19NmrO6iapiaCxZyx2H51uicice6iczu0YCibqUI4VWxooDURMrXgXkzInIzhXibwQ/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" width="375" alt="分类搜索页"/>
 
 ## 二维码公众号
 
@@ -124,6 +124,10 @@ npm run build
 ## 复制优惠券链接
 
 <img src="https://mmbiz.qpic.cn/mmbiz_jpg/GxbBAxrsEibpgl27SgtVON18TWns19NmrsuOe3pnNakgsibOBowAM0yDT7F55zHBcaESMTia6rseGcpmS8KsC5Oqw/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" width="375" alt="复制优惠券链接" />
+
+## 淘宝领券
+
+<img src="https://mmbiz.qpic.cn/mmbiz_jpg/GxbBAxrsEibpgl27SgtVON18TWns19NmreGhOA9391xj5E1sHUyKaBjnAe4RwClN3VpcPdUhkbrcML0YI21tZEA/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" width="375" alt="淘宝领券" />
 
 ## 淘宝领券
 

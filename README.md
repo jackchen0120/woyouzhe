@@ -103,32 +103,28 @@ npm run build
 
 ## 首页
 
-<img src="https://github.com/jackchen0120/woyouzhe/blob/master/static/img/wyz_1.jpg" width="375" alt="首页" />
+<img src="https://mmbiz.qpic.cn/mmbiz_jpg/GxbBAxrsEibpgl27SgtVON18TWns19NmrMO8GTabw2FwzhPGTYDfQ5icqeqTQXCqptywevNry7xicRLNdibqjVKMicw/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" width="375" alt="首页" />
 
 ## 分类搜索页
 
-<img src="https://github.com/jackchen0120/woyouzhe/blob/master/static/img/wyz_2.jpg" width="375" alt="分类搜索页" />
+<img src="https://mmbiz.qpic.cn/mmbiz_jpg/GxbBAxrsEibpgl27SgtVON18TWns19NmrO6iapiaCxZyx2H51uicice6iczu0YCibqUI4VWxooDURMrXgXkzInIzhXibwQ/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" />
 
 ## 二维码公众号
 
-<img src="https://github.com/jackchen0120/woyouzhe/blob/master/static/img/wyz_3.jpg" width="375" alt="分类二维码公众号" />
+<img src="https://mmbiz.qpic.cn/mmbiz_jpg/GxbBAxrsEibpgl27SgtVON18TWns19NmrLAxbwSJWXeMaPRyhWSMyfC2knQmNiaJEDGuaduPibFyia7vcarkDJia4yQ/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" width="375" alt="分类二维码公众号" />
 
 ## 详情页
 
-<img src="https://github.com/jackchen0120/woyouzhe/blob/master/static/img/wyz_4.jpg" width="375" alt="详情页" />
+<img src="https://mmbiz.qpic.cn/mmbiz_jpg/GxbBAxrsEibpgl27SgtVON18TWns19NmrC6JicYzQqu3xPugwzKInOLaF485qGFQKicalMXn7pu20ibytZ92A4iawcg/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" width="375" alt="详情页" />
 
 ## 查看优惠券
 
-<img src="https://github.com/jackchen0120/woyouzhe/blob/master/static/img/wyz_5.jpg" width="375" alt="查看优惠券" />
+<img src="https://mmbiz.qpic.cn/mmbiz_jpg/GxbBAxrsEibpgl27SgtVON18TWns19Nmr5NF1YHC35nAFLTjPD9lbNR2OTe9oa37r4OJqjB4e19t7CJAYEIh5Dg/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" width="375" alt="查看优惠券" />
 
 ## 复制优惠券链接
 
-<img src="https://github.com/jackchen0120/woyouzhe/blob/master/static/img/wyz_6.jpg" width="375" alt="复制优惠券链接" />
+<img src="https://mmbiz.qpic.cn/mmbiz_jpg/GxbBAxrsEibpgl27SgtVON18TWns19NmrsuOe3pnNakgsibOBowAM0yDT7F55zHBcaESMTia6rseGcpmS8KsC5Oqw/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" width="375" alt="复制优惠券链接" />
 
 ## 淘宝领券
 
-<img src="https://github.com/jackchen0120/woyouzhe/blob/master/static/img/wyz_7.jpg" width="375" alt="淘宝领券" />
-
-## 微信分享提示
-
-<img src="https://github.com/jackchen0120/woyouzhe/blob/master/static/img/share.jpg" width="375" alt="微信分享提示" />
+<img src="https://mmbiz.qpic.cn/mmbiz_jpg/GxbBAxrsEibpgl27SgtVON18TWns19NmreGhOA9391xj5E1sHUyKaBjnAe4RwClN3VpcPdUhkbrcML0YI21tZEA/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" width="375" alt="淘宝领券" />

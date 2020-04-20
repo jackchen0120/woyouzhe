@@ -86,7 +86,7 @@ export default {
         this.isIconShow = false;
         this.isSearchInitData = true;
         this.$refs.input.blur();
-        window.location.href = `../search?keyword=${inputVal}`;
+        window.location.href = `../woyouzhe/search?keyword=${inputVal}`;
       }
     },
     submitForm () {

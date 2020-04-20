@@ -107,7 +107,7 @@ export default {
       window.history.back(-1);
     },
     gotoHome () {
-      window.location.href = '../';
+      window.location.href = '../woyouzhe/';
     },
     getCoupon () {
       this.isJumpCoupon = true;

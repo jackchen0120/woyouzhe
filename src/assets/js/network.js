@@ -4,6 +4,7 @@ import { baseUrl } from './url'
 let service = axios.create({
 	baseURL: baseUrl, // 请求前缀
 	timeout: 55000, // 请求超时时间
+	withCredentials: true
 })
 
 // 设置 post 默认 Content-Type

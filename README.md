@@ -6,6 +6,8 @@
 * yapi官网 [http://yapi.demo.qunar.com/](http://yapi.demo.qunar.com/)
 * easy-mock官网 [https://easy-mock.com/docs](https://easy-mock.com/docs)
 
+[H5移动电商网站在线演示](https://jackchen0120.github.io/woyouzhe/index.html)
+
 
 # 项目架构
 ```

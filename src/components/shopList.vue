@@ -154,12 +154,12 @@ export default {
       
     },
     gotoDetail (id) {
-      window.location.href = `../detail?id=${id}`;
+      window.location.href = `../detail.html?id=${id}`;
     },
     gotoCoupon (id, url) {
       let ua = window.navigator.userAgent.toLowerCase();
       if (ua.match(/MicroMessenger/i) == 'micromessenger') {
-        window.location.href = `../coupon?id=${id}`;
+        window.location.href = `../coupon.html?id=${id}`;
       } else {
         window.location.href = url;
       }

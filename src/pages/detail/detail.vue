@@ -181,7 +181,7 @@ export default {
       }, 3000);
     },
     gotoDetail (id) {
-      window.location.href = `../detail?id=${id}`;
+      window.location.href = `../detail.html?id=${id}`;
     },
     taobaoDetail (url) {
       if (this.ua.match(/MicroMessenger/i) == 'micromessenger') {
@@ -193,7 +193,7 @@ export default {
     gotoCoupon (id, url) {
       console.log('领券===',id)
       if (this.ua.match(/MicroMessenger/i) == 'micromessenger') {
-        window.location.href = `../coupon?id=${id}`;
+        window.location.href = `../coupon.html?id=${id}`;
       } else {
         window.location.href = url;
       }

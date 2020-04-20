@@ -58,7 +58,7 @@ export default {
   },
   data () {
     return {
-      searchVal: '' || Export.getUrlParam().keyword,
+      searchVal: Export.getUrlParam().keyword || '',
       isIconShow: false,
       isNotice: false,
       noticeText: '',
@@ -86,7 +86,7 @@ export default {
         this.isIconShow = false;
         this.isSearchInitData = true;
         this.$refs.input.blur();
-        window.location.href = `../search?keyword=${inputVal}`;
+        window.location.href = `../search.html?keyword=${inputVal}`;
       }
     },
     submitForm () {
@@ -105,7 +105,7 @@ export default {
       }
     },
     getFocus () {
-      this.searchVal = this.searchVal == undefined ? '' : this.searchVal;
+      this.searchVal = this.searchVal ? this.searchVal : '';
       if (Export.trim(this.searchVal) != '') {
         this.isIconShow = true;
       }

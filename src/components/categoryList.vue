@@ -81,7 +81,7 @@ export default {
   },
   methods: {
     gotoSearch (category) {
-      window.location.href = `../search?category=${category}` ;
+      window.location.href = `../search.html?category=${category}` ;
     }
   },
   created () {

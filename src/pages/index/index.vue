@@ -119,7 +119,7 @@ export default {
       } else {
         this.isSearchInitData = true;
         this.$refs.input.blur();
-        window.location.href = '../woyouzhe/search/search?word=' + inputVal;
+        window.location.href = '../search/search?word=' + inputVal;
         
       }
     },

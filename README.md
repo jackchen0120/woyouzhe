@@ -6,6 +6,8 @@
 * yapi官网 [http://yapi.demo.qunar.com/](http://yapi.demo.qunar.com/)
 * easy-mock官网 [https://easy-mock.com/docs](https://easy-mock.com/docs)
 
+[在线DEMO演示](http://106.55.168.13:8090/woyouzhe/)
+
 # 项目架构
 ```
 │  vue.config.js                     // webpack配置

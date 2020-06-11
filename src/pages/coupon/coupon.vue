@@ -73,6 +73,7 @@ import soldOut from '@/components/soldOut'
 import errNotice from '@/components/errNotice'
 import jumpCoupon from '@/components/jumpCoupon'
 import backTop from '@/components/backTop'
+import { url } from '@/assets/js/url'
 
 export default {
   components: {
@@ -107,7 +108,7 @@ export default {
       window.history.back(-1);
     },
     gotoHome () {
-      window.location.href = '../';
+      window.location.href = `..${url}/`;
     },
     getCoupon () {
       this.isJumpCoupon = true;

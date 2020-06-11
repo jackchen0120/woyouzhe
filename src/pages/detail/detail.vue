@@ -115,6 +115,7 @@ import soldOut from '@/components/soldOut'
 import errNotice from '@/components/errNotice'
 import jumpCoupon from '@/components/jumpCoupon'
 import backTop from '@/components/backTop'
+import { url } from '@/assets/js/url'
 
 export default {
   components: { 
@@ -151,7 +152,7 @@ export default {
       window.history.back(-1);
     },
     gotoHome () {
-      window.location.href = '../';
+      window.location.href = `..${url}/`;
     },
     gotoCouponBtn (url) {
       if (this.ua.match(/MicroMessenger/i) == 'micromessenger') {
@@ -181,7 +182,7 @@ export default {
       }, 3000);
     },
     gotoDetail (id) {
-      window.location.href = `../detail.html?id=${id}`;
+      window.location.href = `..${url}/detail.html?id=${id}`;
     },
     taobaoDetail (url) {
       if (this.ua.match(/MicroMessenger/i) == 'micromessenger') {
@@ -193,7 +194,7 @@ export default {
     gotoCoupon (id, url) {
       console.log('领券===',id)
       if (this.ua.match(/MicroMessenger/i) == 'micromessenger') {
-        window.location.href = `../coupon.html?id=${id}`;
+        window.location.href = `..${url}/coupon.html?id=${id}`;
       } else {
         window.location.href = url;
       }

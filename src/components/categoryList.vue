@@ -15,6 +15,7 @@
 </template>
 
 <script>
+import { url } from '@/assets/js/url'  
 
 export default {
   data () {
@@ -81,7 +82,7 @@ export default {
   },
   methods: {
     gotoSearch (category) {
-      window.location.href = `../search.html?category=${category}` ;
+      window.location.href = `..${url}/search.html?category=${category}` ;
     }
   },
   created () {

@@ -4,7 +4,7 @@ const isProduction = process.env.NODE_ENV === 'production'
 
 module.exports = {
 	pages: utils.pages(), // 多页配置
-    // publicPath: isProduction ? '/woyouzhe/' : '/', // 部署生产环境和开发环境下的URL：可对当前环境进行区分
+    publicPath: isProduction ? '/woyouzhe/' : '/', // 部署生产环境和开发环境下的URL：可对当前环境进行区分
     lintOnSave: false, // 是否在代码保存时进行eslint检测
   	productionSourceMap: false, // 是否在构建生产包时生成sourceMap文件，false将提高构建速度
   	devServer: { // webpack-dev-server 相关配置 

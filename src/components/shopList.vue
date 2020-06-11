@@ -58,6 +58,7 @@ import Export from '@/assets/js/export'
 import { getShopList } from '@/assets/js/api'
 import loading from './loading'
 import soldOut from './soldOut'
+import { url } from '@/assets/js/url'  
 import '@/mock'
 
 export default {
@@ -154,12 +155,12 @@ export default {
       
     },
     gotoDetail (id) {
-      window.location.href = `../detail.html?id=${id}`;
+      window.location.href = `..${url}/detail.html?id=${id}`;
     },
     gotoCoupon (id, url) {
       let ua = window.navigator.userAgent.toLowerCase();
       if (ua.match(/MicroMessenger/i) == 'micromessenger') {
-        window.location.href = `../coupon.html?id=${id}`;
+        window.location.href = `..${url}/coupon.html?id=${id}`;
       } else {
         window.location.href = url;
       }

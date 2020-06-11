@@ -75,6 +75,7 @@ import errNotice from '@/components/errNotice'
 import jumpCoupon from '@/components/jumpCoupon'
 import backTop from '@/components/backTop'
 import { getMockData } from '@/assets/js/api'
+import { url } from '@/assets/js/url'
 
 export default {
   components: {
@@ -119,7 +120,7 @@ export default {
       } else {
         this.isSearchInitData = true;
         this.$refs.input.blur();
-        window.location.href = '../search.html?keyword=' + inputVal;
+        window.location.href = `..${url}/search.html?keyword=${inputVal}`;
         
       }
     },

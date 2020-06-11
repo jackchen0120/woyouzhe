@@ -49,6 +49,8 @@ import Export from '@/assets/js/export'
 import shopList from '@/components/shopList'
 import errNotice from '@/components/errNotice'
 import backTop from '@/components/backTop'
+import { url } from '@/assets/js/url'
+
 
 export default {
   components: {
@@ -86,7 +88,7 @@ export default {
         this.isIconShow = false;
         this.isSearchInitData = true;
         this.$refs.input.blur();
-        window.location.href = `../search.html?keyword=${inputVal}`;
+        window.location.href = `..${url}/search.html?keyword=${inputVal}`;
       }
     },
     submitForm () {
